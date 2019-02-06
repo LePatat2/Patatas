@@ -1,0 +1,154 @@
+logotipo{
+  position: fixed;
+  width: 800px;
+  height: 300px;
+}
+nav{
+
+  background-color: Green;
+
+}
+nav ul li{
+  margin: 10px;
+  display: inline-block;
+  text-decoration: none;
+
+}
+body {
+  margin-left: 15%;
+  margin-right: 15%;
+  background-color: lightgrey;
+
+}
+
+nav ul li a{
+  color: white;
+  text-decoration: none;
+
+}
+
+.articles{
+
+  float: left;
+  width: 65%;
+}
+
+.articulo{
+  background-color: white;
+  padding: 10px;
+  margin-bottom: 10px;
+}
+
+td,table{
+border: 1px black solid;
+border-collapse: collapse;
+text-align: center;
+vertical-align: middle;
+}
+
+td{
+  height: 50px;
+  width: 200px;
+}
+
+td:hover{
+  background-color: black;
+  color: white;
+}
+tr:hover{
+  background-color: grey;
+  color: white;
+}
+.alumnos{
+  background-color: white;
+  margin-bottom: 5px;
+  padding: 10px;
+}
+.asignatura{
+  background-color: white;
+  float: left;
+  width: 100%;
+  margin-top: 15px;
+  margin-bottom: 50px;
+}
+
+aside{
+  width: 34%;
+  float: right;
+  background-color: grey;
+  height: 250px;
+  color: white;
+}
+
+footer{
+  clear: left;
+  text-align: center;
+  background-color: black;
+  color: white;
+  height: 25px;
+
+}
+.asignaturas{
+  background-color: whitesmoke;
+  margin: 0 15px 15px 15px;
+  color: black;
+  text-align: center;
+
+}
+
+.asignaturas a{
+  text-decoration: underline;
+  color: blue;
+}
+.asignaturas li{
+  list-style-type: none;
+}
+aside h3,p{
+  width: 70%;
+}
+aside p{
+  height: 10%;
+  margin-bottom: 50px;
+}
+
+form{
+  border: 1px solid white;
+  margin-left: 25px;
+  margin-right: 25px;
+  height: 55%;
+  background-color: lightgreen;
+  border-radius: 10px;
+  padding-top: 15px;
+}
+
+label{
+  margin: 10px;
+  padding: 5px;
+  height: 15px;
+  margin-bottom: 15px;
+}
+
+textarea{
+  height: 75px;
+  margin-left: 12px;
+  width: 150px;
+  margin-bottom: 15px;
+}
+input{
+  margin-left: 12px;
+  width: 350px;
+  margin-bottom: 15px;
+}
+.boton{
+  background-color: Green;
+  color: white;
+  border-radius: 12px;
+  border-color: green;
+}
+aside h3,p{
+  margin-left: 5px;
+  margin-top: 5px;
+}
+footer p{
+  margin-left: 12%;
+}
